@@ -93,6 +93,10 @@ body {
   color: #ffffff;
 }
 
+.sale__item {
+  margin-bottom: 24px;
+}
+
 .sale__img {
   width: 100%;
   margin-bottom: 8px;
@@ -105,5 +109,29 @@ body {
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
+  color: #86e543;
+}
+
+.sale__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 16px;
+}
+
+.sale__previous-price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #8d9289;
+}
+
+.sale__product-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
   color: #86e543;
 }/*# sourceMappingURL=main.css.map */

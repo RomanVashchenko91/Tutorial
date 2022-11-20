@@ -11,8 +11,11 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
-
   color: #ffffff;
+}
+
+.sale__item {
+  margin-bottom: 24px;
 }
 
 .sale__img {
@@ -31,13 +34,24 @@
 }
 
 .sale__wrap {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 16px;
 }
 
 .sale__previous-price {
-
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration-line: line-through;
+  color: #8d9289;
 }
 
 .sale__product-price {
-    
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #86e543;
 }
