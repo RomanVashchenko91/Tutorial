@@ -24,14 +24,18 @@
   color: #ffffff;
   margin-bottom: 35px;
   padding-left: 80px;
+  @media screen and (min-width: 768px) {
+    padding-left: 142px;
+    font-size: 56px;
+  }
 }
 
 .sale__list {
+  margin-bottom: 24px;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
-    margin-bottom: 24px;
   }
   @media screen and (min-width: 1280px) {
     gap: 20px;
@@ -39,11 +43,8 @@
 }
 
 .sale__item {
-  @media screen and (max-width: 768px) {
-    margin-bottom: 24px;
-    &:nth-child(2n) {
-      display: none;
-    }
+  &:nth-child(2n) {
+    display: none;
   }
 
   @media screen and (min-width: 768px) {

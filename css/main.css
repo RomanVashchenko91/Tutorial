@@ -108,13 +108,21 @@ body {
   margin-bottom: 35px;
   padding-left: 80px;
 }
+@media screen and (min-width: 768px) {
+  .sale__title {
+    padding-left: 142px;
+    font-size: 56px;
+  }
+}
 
+.sale__list {
+  margin-bottom: 24px;
+}
 @media screen and (min-width: 768px) {
   .sale__list {
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
-    margin-bottom: 24px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -123,13 +131,8 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .sale__item {
-    margin-bottom: 24px;
-  }
-  .sale__item:nth-child(2n) {
-    display: none;
-  }
+.sale__item:nth-child(2n) {
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .sale__item {
