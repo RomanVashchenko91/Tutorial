@@ -31,14 +31,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1280px) {
+    gap: 20px;
   }
 }
 
 .sale__item {
-  margin-bottom: 24px;
-  &:nth-child(2n) {
-    display: none;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 24px;
+    &:nth-child(2n) {
+      display: none;
+    }
   }
+
   @media screen and (min-width: 768px) {
     width: calc((100% - 38px) / 2);
     &:nth-child(2n) {
@@ -46,8 +53,7 @@
     }
   }
   @media screen and (min-width: 1280px) {
-    gap: 24px;
-    width: calc((100% - 24px) / 4);
+    width: calc((100% - 60px) / 4);
   }
 }
 
