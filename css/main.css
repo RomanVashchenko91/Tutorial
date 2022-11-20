@@ -81,11 +81,9 @@ body {
   margin-bottom: 48px;
 }
 
-@media screen and (max-width: 767px) {
-  .sale__container {
-    padding-right: 18px;
-    padding-left: 18px;
-  }
+.sale__container {
+  padding-right: 18px;
+  padding-left: 18px;
 }
 @media screen and (min-width: 768px) {
   .sale__container {

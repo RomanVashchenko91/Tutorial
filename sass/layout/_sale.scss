@@ -3,10 +3,12 @@
 }
 
 .sale__container {
-  @media screen and (max-width: 767px) {
-    padding-right: 18px;
-    padding-left: 18px;
-  }
+  padding-right: 18px;
+  padding-left: 18px;
+  // @media screen and (max-width: 767px) {
+  //   padding-right: 18px;
+  //   padding-left: 18px;
+  // }
   @media screen and (min-width: 768px) {
     padding-left: 80px;
     padding-right: 80px;
