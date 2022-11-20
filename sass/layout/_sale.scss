@@ -7,6 +7,14 @@
     padding-right: 18px;
     padding-left: 18px;
   }
+  @media screen and (min-width: 768px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .sale__title {
@@ -14,16 +22,40 @@
   font-size: 24px;
   line-height: 1.17;
   color: #ffffff;
+  margin-bottom: 35px;
+  padding-left: 80px;
+}
+
+.sale__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+  }
 }
 
 .sale__item {
   margin-bottom: 24px;
+  &:nth-child(2n) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 38px) / 2);
+    &:nth-child(2n) {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    gap: 24px;
+    width: calc((100% - 24px) / 4);
+  }
 }
 
 .sale__img {
   @media screen and (max-width: 479px) {
     width: 100%;
   }
+  border-radius: 12px;
 }
 
 .sale__description {
