@@ -121,7 +121,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 19px;
 }
 
 .sale__previous-price {
