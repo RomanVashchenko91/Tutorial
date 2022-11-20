@@ -1,5 +1,43 @@
-.sale-title {
+.sale {
+  background: url("/images/bg-mobile.jpg");
+}
+
+.sale__container {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.sale__title {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
+
+  color: #ffffff;
+}
+
+.sale__img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.sale__product-name {
+  padding-left: 8px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #86e543;
+}
+
+.sale__wrap {
+
+}
+
+.sale__previous-price {
+
+}
+
+.sale__product-price {
+    
 }
