@@ -1,14 +1,65 @@
 .sale {
-  margin-bottom: 48px;
+  padding-bottom: 48px;
+  position: relative;
+}
+
+.top-line-container {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  @media screen and (min-width: 768px) {
+    top: 58px;
+  }
+}
+.top-line {
+  height: 8px;
+}
+.top-left-part {
+  width: 50vw;
+  @media screen and (min-width: 1280px) {
+    width: 30vw;
+  }
+  border-bottom: 1px solid #7be34a;
+  border-right: 0.5px solid #7be34a;
+}
+.top-right-part {
+  width: 100vw;
+  border-top: 1px solid #7be34a;
+  border-left: 0.5px solid #7be34a;
+}
+
+.bottom-line-container {
+  position: absolute;
+  top: 36px;
+  display: flex;
+  @media screen and (min-width: 768px) {
+    top: 64px;
+  }
+}
+.bottom-line {
+  height: 8px;
+}
+.bottom-left-part {
+  width: 51vw;
+  @media screen and (min-width: 768px) {
+    width: 51.2vw;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 30.6vw;
+  }
+  border-bottom: 1px solid #28780d;
+  border-right: 0.5px solid #28780d;
+}
+
+.bottom-right-part {
+  width: 100vw;
+  border-top: 1px solid #28780d;
+  border-left: 0.5px solid #28780d;
 }
 
 .sale__container {
   padding-right: 18px;
   padding-left: 18px;
-  // @media screen and (max-width: 767px) {
-  //   padding-right: 18px;
-  //   padding-left: 18px;
-  // }
   @media screen and (min-width: 768px) {
     padding-left: 80px;
     padding-right: 80px;
