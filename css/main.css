@@ -79,76 +79,6 @@ body {
 
 .sale {
   padding-bottom: 48px;
-  position: relative;
-}
-
-.top-line-container {
-  position: absolute;
-  top: 30px;
-  display: flex;
-}
-@media screen and (min-width: 768px) {
-  .top-line-container {
-    top: 58px;
-  }
-}
-
-.top-line {
-  height: 8px;
-}
-
-.top-left-part {
-  width: 50vw;
-  border-bottom: 1px solid #7be34a;
-  border-right: 0.5px solid #7be34a;
-}
-@media screen and (min-width: 1280px) {
-  .top-left-part {
-    width: 30vw;
-  }
-}
-
-.top-right-part {
-  width: 100vw;
-  border-top: 1px solid #7be34a;
-  border-left: 0.5px solid #7be34a;
-}
-
-.bottom-line-container {
-  position: absolute;
-  top: 36px;
-  display: flex;
-}
-@media screen and (min-width: 768px) {
-  .bottom-line-container {
-    top: 64px;
-  }
-}
-
-.bottom-line {
-  height: 8px;
-}
-
-.bottom-left-part {
-  width: 51vw;
-  border-bottom: 1px solid #28780d;
-  border-right: 0.5px solid #28780d;
-}
-@media screen and (min-width: 768px) {
-  .bottom-left-part {
-    width: 51.2vw;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .bottom-left-part {
-    width: 30.6vw;
-  }
-}
-
-.bottom-right-part {
-  width: 100vw;
-  border-top: 1px solid #28780d;
-  border-left: 0.5px solid #28780d;
 }
 
 .sale__container {
@@ -174,11 +104,10 @@ body {
   line-height: 1.17;
   color: #ffffff;
   margin-bottom: 35px;
-  padding-left: 80px;
+  padding-left: 62px;
 }
 @media screen and (min-width: 768px) {
   .sale__title {
-    padding-left: 142px;
     font-size: 56px;
   }
 }
