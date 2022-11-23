@@ -229,18 +229,18 @@ body {
 }
 
 .top-left-part {
-  width: 58vw;
+  width: 45vw;
   border-bottom: 1px solid #7be34a;
   border-right: 0.5px solid #7be34a;
 }
 @media screen and (min-width: 480px) {
   .top-left-part {
-    width: 55vw;
+    width: 47vw;
   }
 }
 @media screen and (min-width: 768px) {
   .top-left-part {
-    width: 69vw;
+    width: 40vw;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -250,18 +250,18 @@ body {
 }
 
 .top-right-part {
-  width: 42vw;
+  width: 55vw;
   border-top: 1px solid #7be34a;
   border-left: 0.5px solid #7be34a;
 }
 @media screen and (min-width: 480px) {
   .top-right-part {
-    width: 45vw;
+    width: 53vw;
   }
 }
 @media screen and (min-width: 768px) {
   .top-right-part {
-    width: 31vw;
+    width: 60vw;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -292,18 +292,18 @@ body {
 }
 
 .bottom-left-part {
-  width: 59vw;
+  width: 47vw;
   border-bottom: 1px solid #28780d;
   border-right: 0.5px solid #28780d;
 }
 @media screen and (min-width: 480px) {
   .bottom-left-part {
-    width: 55.7vw;
+    width: 48vw;
   }
 }
 @media screen and (min-width: 768px) {
   .bottom-left-part {
-    width: 70vw;
+    width: 41vw;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -313,18 +313,18 @@ body {
 }
 
 .bottom-right-part {
-  width: 41vw;
+  width: 53vw;
   border-top: 1px solid #28780d;
   border-left: 0.5px solid #28780d;
 }
 @media screen and (min-width: 480px) {
   .bottom-right-part {
-    width: 44.3vw;
+    width: 52vw;
   }
 }
 @media screen and (min-width: 768px) {
   .bottom-right-part {
-    width: 30vw;
+    width: 59vw;
   }
 }
 @media screen and (min-width: 1280px) {
