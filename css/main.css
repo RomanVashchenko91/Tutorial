@@ -245,7 +245,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .top-left-part {
-    width: 42vw;
+    width: 25vw;
   }
 }
 
@@ -266,7 +266,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .top-right-part {
-    width: 58vw;
+    width: 73.8vw;
   }
 }
 
@@ -308,7 +308,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .bottom-left-part {
-    width: 42.6vw;
+    width: 25.5vw;
   }
 }
 
@@ -329,6 +329,6 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .bottom-right-part {
-    width: 57.4vw;
+    width: 73.3vw;
   }
 }/*# sourceMappingURL=main.css.map */
